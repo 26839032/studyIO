@@ -7,17 +7,18 @@ public class Main {
 
 
         Main a =new Main();
-        System.out.printf(Integer.toString(a.add(3,5)));
+        System.out.print(Integer.toString(a.add(3, 5)));
 
     }
 
     public  void abc()
     {
-        System.out.printf("this is a function");
+        System.out.print("this is a function");
     }
 
-    public  int add(int x, int y)
+    private int add(int x, int y)
     {
+
         return x+y;
     }
 }
